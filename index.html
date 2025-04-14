@@ -6,8 +6,164 @@
     <title>Ismail's Web Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <a href="/">Ismail A</a>    
+        <nav>
+            <a target="_blank" href="https://github.com/NetworkWarrior"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ismoiljon-abdumajidov-654943287/"><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="intro-header">
+                <h1>Kia ora! I'm Ismail...</h1>
+                <p>Software Developer</p>
+            </div>
+            <h5 class="intro-description">
+                A civil engineer by qualification, and a software developer by trade. 
+                Based in Poland, I love to walk, play video games, and build out all
+                sorts of fun and useful internet applications!
+            </h5>
+            <div class="links-container">
+                <i class="fa-solid link-arrow fa-arrow-right"></i><a href="mailto:ismailabdumajdov@gmail.com"></i> Email me</a>
+                <a target="_blank" href="https://github.com/NetworkWarrior">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/in/ismoiljon-abdumajidov-654943287/">LinkIn</a>
+            </div>
+            <div id="play-game">
+                <button onclick="">Play game???</button>
+            </div>
+            <div class="color-div">
+                <h4>Pick a color</h4>
+                <p style="display: none;">Great... now it's ruined!</p>
+                <input type="color" id="color-picker" onchange="" value="#0084ff">
+                <button style="display: none;" onclick="">Rest</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>JavaScript | React Native | NextJS</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>
+                            Python | Django | Flask | RESTful API | DSA 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Web</td>
+                        <td>TailwindCSS | PostgreSQL | CI/CD | GIT | Docker | HTML | CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td>Photoshop | Microsoft Paint | Canvas | Pixlr</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Latest Projects</h2>
+            <div class="cards-grid">
+                <div class="project-card">
+                    <div>
+                        <p>July 15, 2023</p>
+                        <h4>IsmailAbdumajidov</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </p>
+                            <div class="project-links">
+                                <a target="_blank" href="/">Live</a>
+                                <a target="_blank" href="/">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <p>July 15, 2023</p>
+                        <h4>IsmailAbdumajidov</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </p>
+                            <div class="project-links">
+                                <a target="_blank" href="/">Live</a>
+                                <a target="_blank" href="/">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div>
+                        <p>July 15, 2023</p>
+                        <h4>IsmailAbdumajidov</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </p>
+                            <div class="project-links">
+                                <a target="_blank" href="/">Live</a>
+                                <a target="_blank" href="/">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>By <a href="">IsmailAbdumajidov</a> ⭐️ the repo on <a target="_blank" href="/">GitHub</a></p>
+    </footer>
+    <script></script>
 </body>
 </html>
